@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+.flag-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callback {
+  position: absolute;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.right {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.flag {
+  width: 90%;
+  max-width: 600px;
+  border: 3px solid rebeccapurple;
+}
+
+.counter-text {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
