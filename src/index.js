@@ -70,7 +70,7 @@ const getRandomAbleFlag = (retry = 0) => {
 
   const repeat = hitFlags.length && lastFlag?.name === currentFlag.name
 
-  if ((!!flagAlreadyHit && retry < flags.length / 2) || repeat) {
+  if ((!!flagAlreadyHit && retry < flags.length * 1.5) || repeat) {
     return getRandomAbleFlag(retry + 1)
   } else {
     return currentFlag
