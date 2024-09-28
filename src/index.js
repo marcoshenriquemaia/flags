@@ -17,10 +17,14 @@ const events = {
   'KeyA': () => {
     printMessage('miss')
     lastFlag = currentFlag
+    hitFlags = hitFlags.filter(flag => flag.name !== currentFlag.name)
     setTimeout(initGame, 1000)
   },
   'KeyD': () => {
-    !hitFlags.find(flag => flag.name === currentFlag.name) && addRandomFlag()
+    if (!hitFlags.find(flag => flag.name === currentFlag.name)) {
+      addRandomFlag()
+      addRandomFlag()
+    }
     hitFlags.push(currentFlag)
     printMessage('hit')
     lastFlag = currentFlag
@@ -52,8 +56,6 @@ const addRandomFlag = () => {
 
   !flags.find(flag => flag.name === newFlag.name) && flags.push(newFlag)
 
-  console.log()
-
   return newFlag
 }
 
@@ -68,7 +70,8 @@ const getRandomAbleFlag = (retry = 0) => {
 
   const repeat = hitFlags.length && lastFlag?.name === currentFlag.name
 
-  if ((!!flagAlreadyHit && retry < 5) || repeat) {
+  if ((!!flagAlreadyHit && retry < flags.length) || repeat) {
+    console.log('retentou')
     return getRandomAbleFlag(retry + 1)
   } else {
     return currentFlag
