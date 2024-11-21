@@ -1,4 +1,4 @@
-export const data = [
+export const flagData = [
   {
       "name": "Afeganistão",
       "img": "https://static.significados.com.br/flags/af.svg"
