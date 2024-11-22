@@ -344,10 +344,6 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/gl.svg"
   },
   {
-      "name": "Guadalupe",
-      "img": "https://static.significados.com.br/flags/gp.svg"
-  },
-  {
       "name": "Guão",
       "img": "https://static.significados.com.br/flags/gu.svg"
   },
@@ -764,10 +760,6 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/as.svg"
   },
   {
-      "name": "Santa Helena",
-      "img": "https://static.significados.com.br/flags/sh.svg"
-  },
-  {
       "name": "Santa Lúcia",
       "img": "https://static.significados.com.br/flags/lc.svg"
   },
@@ -778,10 +770,6 @@ export const flagData = [
   {
       "name": "São Marino",
       "img": "https://static.significados.com.br/flags/sm.svg"
-  },
-  {
-      "name": "São Pedro e Miquelon",
-      "img": "https://static.significados.com.br/flags/pm.svg"
   },
   {
       "name": "Sao Tomé e Príncipe",
