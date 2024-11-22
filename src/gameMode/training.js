@@ -39,7 +39,7 @@ export const trainingMode = (data, containerQuery) => {
   const initGame = () => {
     $container.innerHTML = ''
 
-    const item = getRandomAbleItem(0, hitItems, lastItem, items)
+    const item = getRandomAbleItem(hitItems, items, lastItem)
 
     currentItem = item
 

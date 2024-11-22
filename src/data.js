@@ -12,8 +12,20 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/al.svg"
   },
   {
+      "name": "Kosovo",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/1280px-Flag_of_Kosovo.svg.png"
+  },
+  {
+      "name": "Servia",
+      "img": "https://s2.static.brasilescola.uol.com.br/be/2022/04/2-bandeira-servia.jpg"
+  },
+  {
       "name": "Alemanha",
       "img": "https://static.significados.com.br/flags/de.svg"
+  },
+  {
+      "name": "Montenegro",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1920px-Flag_of_Montenegro.svg.png"
   },
   {
       "name": "Algéria",
@@ -280,10 +292,6 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/ee.svg"
   },
   {
-      "name": "Esvalbarde",
-      "img": "https://static.significados.com.br/flags/sj.svg"
-  },
-  {
       "name": "Etiópia",
       "img": "https://static.significados.com.br/flags/et.svg"
   },
@@ -392,10 +400,6 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/ye.svg"
   },
   {
-      "name": "Ilha Bouvet",
-      "img": "https://static.significados.com.br/flags/bv.svg"
-  },
-  {
       "name": "Ilha Christmas",
       "img": "https://static.significados.com.br/flags/cx.svg"
   },
@@ -422,10 +426,6 @@ export const flagData = [
   {
       "name": "Ilhas Geórgia do Sul e Sandwich do Sul",
       "img": "https://static.significados.com.br/flags/gs.svg"
-  },
-  {
-      "name": "Ilhas Heard e McDonald",
-      "img": "https://static.significados.com.br/flags/hm.svg"
   },
   {
       "name": "Ilhas Malvinas",
@@ -596,10 +596,6 @@ export const flagData = [
       "img": "https://static.significados.com.br/flags/mr.svg"
   },
   {
-      "name": "Mayotte",
-      "img": "https://static.significados.com.br/flags/yt.svg"
-  },
-  {
       "name": "México",
       "img": "https://static.significados.com.br/flags/mx.svg"
   },
@@ -742,10 +738,6 @@ export const flagData = [
   {
       "name": "República Tcheca",
       "img": "https://static.significados.com.br/flags/cz.svg"
-  },
-  {
-      "name": "Reunião",
-      "img": "https://static.significados.com.br/flags/re.svg"
   },
   {
       "name": "Romênia",
