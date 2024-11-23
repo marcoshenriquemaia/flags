@@ -3902,3 +3902,486 @@ export const capital = [
         "text": "Mata-Utu"
     }
 ]
+
+const tabelaPeriodica = [
+    {
+        "answer": "89 - Ac",
+        "text": "Actínio"
+    },
+    {
+        "answer": "47 - Ag",
+        "text": "Prata"
+    },
+    {
+        "answer": "13 - Al",
+        "text": "Alumínio"
+    },
+    {
+        "answer": "95 - Am",
+        "text": "Amerício"
+    },
+    {
+        "answer": "18 - Ar",
+        "text": "Argônio ou Árgon"
+    },
+    {
+        "answer": "33 - As",
+        "text": "Arsénio"
+    },
+    {
+        "answer": "85 - At",
+        "text": "Ástato"
+    },
+    {
+        "answer": "79 - Au",
+        "text": "Ouro"
+    },
+    {
+        "answer": "5 - B",
+        "text": "Boro"
+    },
+    {
+        "answer": "56 - Ba",
+        "text": "Bário"
+    },
+    {
+        "answer": "4 - Be",
+        "text": "Berílio"
+    },
+    {
+        "answer": "107 - Bh",
+        "text": "Bóhrio"
+    },
+    {
+        "answer": "83 - Bi",
+        "text": "Bismuto"
+    },
+    {
+        "answer": "97 - Bk",
+        "text": "Berquélio"
+    },
+    {
+        "answer": "35 - Br",
+        "text": "Bromo"
+    },
+    {
+        "answer": "6 - C",
+        "text": "Carbono"
+    },
+    {
+        "answer": "20 - Ca",
+        "text": "Cálcio"
+    },
+    {
+        "answer": "48 - Cd",
+        "text": "Cádmio"
+    },
+    {
+        "answer": "58 - Ce",
+        "text": "Cério"
+    },
+    {
+        "answer": "98 - Cf",
+        "text": "Califórnio"
+    },
+    {
+        "answer": "17 - Cl",
+        "text": "Cloro"
+    },
+    {
+        "answer": "96 - Cm",
+        "text": "Cúrio"
+    },
+    {
+        "answer": "112 - Cn",
+        "text": "Copernício"
+    },
+    {
+        "answer": "27 - Co",
+        "text": "Cobalto"
+    },
+    {
+        "answer": "24 - Cr",
+        "text": "Cromo ou Crómio"
+    },
+    {
+        "answer": "55 - Cs",
+        "text": "Césio"
+    },
+    {
+        "answer": "29 - Cu",
+        "text": "Cobre"
+    },
+    {
+        "answer": "105 - Db",
+        "text": "Dúbnio"
+    },
+    {
+        "answer": "110 - Ds",
+        "text": "Darmstácio"
+    },
+    {
+        "answer": "66 - Dy",
+        "text": "Disprósio"
+    },
+    {
+        "answer": "68 - Er",
+        "text": "Érbio"
+    },
+    {
+        "answer": "99 - Es",
+        "text": "Einsténio"
+    },
+    {
+        "answer": "63 - Eu",
+        "text": "Európio"
+    },
+    {
+        "answer": "9 - F",
+        "text": "Flúor"
+    },
+    {
+        "answer": "26 - Fe",
+        "text": "Ferro"
+    },
+    {
+        "answer": "114 - Fl",
+        "text": "Fleróvio"
+    },
+    {
+        "answer": "100 - Fm",
+        "text": "Férmio"
+    },
+    {
+        "answer": "87 - Fr",
+        "text": "Frâncio"
+    },
+    {
+        "answer": "31 - Ga",
+        "text": "Gálio"
+    },
+    {
+        "answer": "64 - Gd",
+        "text": "Gadolínio"
+    },
+    {
+        "answer": "32 - Ge",
+        "text": "Germânio"
+    },
+    {
+        "answer": "1 - H",
+        "text": "Hidrogênio"
+    },
+    {
+        "answer": "2 - He",
+        "text": "Hélio"
+    },
+    {
+        "answer": "72 - Hf",
+        "text": "Háfnio"
+    },
+    {
+        "answer": "80 - Hg",
+        "text": "Mercúrio"
+    },
+    {
+        "answer": "67 - Ho",
+        "text": "Hólmio"
+    },
+    {
+        "answer": "108 - Hs",
+        "text": "Hássio"
+    },
+    {
+        "answer": "53 - I",
+        "text": "Iodo"
+    },
+    {
+        "answer": "49 - In",
+        "text": "Índio"
+    },
+    {
+        "answer": "77 - Ir",
+        "text": "Irídio"
+    },
+    {
+        "answer": "19 - K",
+        "text": "Potássio"
+    },
+    {
+        "answer": "36 - Kr",
+        "text": "Criptônio ou Crípton ou Krípton"
+    },
+    {
+        "answer": "57 - La",
+        "text": "Lantânio"
+    },
+    {
+        "answer": "3 - Li",
+        "text": "Lítio"
+    },
+    {
+        "answer": "103 - Lr",
+        "text": "Laurêncio"
+    },
+    {
+        "answer": "71 - Lu",
+        "text": "Lutécio"
+    },
+    {
+        "answer": "116 - Lv",
+        "text": "Livermório"
+    },
+    {
+        "answer": "115 - Mc",
+        "text": "Moscóvio"
+    },
+    {
+        "answer": "101 - Md",
+        "text": "Mendelévio"
+    },
+    {
+        "answer": "12 - Mg",
+        "text": "Magnésio"
+    },
+    {
+        "answer": "25 - Mn",
+        "text": "Manganês"
+    },
+    {
+        "answer": "42 - Mo",
+        "text": "Molibdénio"
+    },
+    {
+        "answer": "109 - Mt",
+        "text": "Meitnério"
+    },
+    {
+        "answer": "7 - N",
+        "text": "Nitrogênio ou Azoto"
+    },
+    {
+        "answer": "11 - Na",
+        "text": "Sódio"
+    },
+    {
+        "answer": "41 - Nb",
+        "text": "Nióbio"
+    },
+    {
+        "answer": "60 - Nd",
+        "text": "Neodímio"
+    },
+    {
+        "answer": "10 - Ne",
+        "text": "Neônio ou Néon"
+    },
+    {
+        "answer": "113 - Nh",
+        "text": "Nipônio"
+    },
+    {
+        "answer": "28 - Ni",
+        "text": "Níquel"
+    },
+    {
+        "answer": "102 - No",
+        "text": "Nobélio"
+    },
+    {
+        "answer": "93 - Np",
+        "text": "Ne(p)túnio"
+    },
+    {
+        "answer": "8 - O",
+        "text": "Oxigênio"
+    },
+    {
+        "answer": "118 - Og",
+        "text": "Oganésson ou Oganéssio"
+    },
+    {
+        "answer": "76 - Os",
+        "text": "Ósmio"
+    },
+    {
+        "answer": "15 - P",
+        "text": "Fósforo"
+    },
+    {
+        "answer": "91 - Pa",
+        "text": "Protactínio"
+    },
+    {
+        "answer": "82 - Pb",
+        "text": "Chumbo"
+    },
+    {
+        "answer": "46 - Pd",
+        "text": "Paládio"
+    },
+    {
+        "answer": "61 - Pm",
+        "text": "Promécio"
+    },
+    {
+        "answer": "84 - Po",
+        "text": "Polônio"
+    },
+    {
+        "answer": "59 - Pr",
+        "text": "Praseodímio"
+    },
+    {
+        "answer": "78 - Pt",
+        "text": "Platina"
+    },
+    {
+        "answer": "94 - Pu",
+        "text": "Plutônio"
+    },
+    {
+        "answer": "88 - Ra",
+        "text": "Rádio"
+    },
+    {
+        "answer": "37 - Rb",
+        "text": "Rubídio"
+    },
+    {
+        "answer": "75 - Re",
+        "text": "Rênio"
+    },
+    {
+        "answer": "104 - Rf",
+        "text": "Rutherfórdio"
+    },
+    {
+        "answer": "111 - Rg",
+        "text": "Roentgénio"
+    },
+    {
+        "answer": "45 - Rh",
+        "text": "Ródio"
+    },
+    {
+        "answer": "86 - Rn",
+        "text": "Rádon ou Radônio"
+    },
+    {
+        "answer": "44 - Ru",
+        "text": "Rutênio"
+    },
+    {
+        "answer": "16 - S",
+        "text": "Enxofre"
+    },
+    {
+        "answer": "51 - Sb",
+        "text": "Antimônio"
+    },
+    {
+        "answer": "21 - Sc",
+        "text": "Escândio"
+    },
+    {
+        "answer": "34 - Se",
+        "text": "Selénio"
+    },
+    {
+        "answer": "106 - Sg",
+        "text": "Seabórgio"
+    },
+    {
+        "answer": "14 - Si",
+        "text": "Silício"
+    },
+    {
+        "answer": "62 - Sm",
+        "text": "Samário"
+    },
+    {
+        "answer": "50 - Sn",
+        "text": "Estanho"
+    },
+    {
+        "answer": "38 - Sr",
+        "text": "Estrôncio"
+    },
+    {
+        "answer": "73 - Ta",
+        "text": "Tântalo ou Tantálio"
+    },
+    {
+        "answer": "65 - Tb",
+        "text": "Térbio"
+    },
+    {
+        "answer": "43 - Tc",
+        "text": "Tecnécio"
+    },
+    {
+        "answer": "52 - Te",
+        "text": "Telúrio"
+    },
+    {
+        "answer": "90 - Th",
+        "text": "Tório"
+    },
+    {
+        "answer": "22 - Ti",
+        "text": "Titânio"
+    },
+    {
+        "answer": "81 - Tl",
+        "text": "Tálio"
+    },
+    {
+        "answer": "69 - Tm",
+        "text": "Túlio"
+    },
+    {
+        "answer": "117 - Ts",
+        "text": "Tenesso"
+    },
+    {
+        "answer": "92 - U",
+        "text": "Urânio"
+    },
+    {
+        "answer": "23 - V",
+        "text": "Vanádio"
+    },
+    {
+        "answer": "74 - W",
+        "text": "Tungstênio ou Volfrâmio"
+    },
+    {
+        "answer": "54 - Xe",
+        "text": "Xenônio ou Xénon"
+    },
+    {
+        "answer": "39 - Y",
+        "text": "Ítrio"
+    },
+    {
+        "answer": "70 - Yb",
+        "text": "Itérbio"
+    },
+    {
+        "answer": "30 - Zn",
+        "text": "Zinco"
+    },
+    {
+        "answer": "40 - Zr",
+        "text": "Zircônio"
+    },
+    {
+        "answer": "\n\n\nMetais alcalinos\n\nMetais alcalinos-terrosos\n\nLantanídeos\n\nActinídeos\n\nMetais detransição\n\nMetaispós-transição\n\nSemimetais\n\nNão-metaispoliatômicos\n\nDiatômicos não metais\n\nGases nobres\n\nPropriedadesquímicasdesconhecidas\n\n\n\n - Metais alcalinos\n",
+        "text": "Metais alcalinos-terrosos\n"
+    },
+    {
+        "answer": "Metais alcalinos\n - Metais alcalinos-terrosos\n",
+        "text": "Lantanídeos\n"
+    }
+]
