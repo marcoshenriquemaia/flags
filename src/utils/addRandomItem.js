@@ -1,12 +1,11 @@
 import { genRandomNumbers } from "./randomNumber.js"
-import { flagData } from "../data.js";
 
-export const addRandomItem = (items) => {
-  if (flagData.length === items.length) return
-  
-  const randomNumber = genRandomNumbers(flagData.length)
+export const addRandomItem = (items, data) => {
+  if (data.length === items.length) return
 
-  const newItem = flagData[randomNumber]
+  const randomNumber = genRandomNumbers(data.length)
+
+  const newItem = data[randomNumber]
 
   if (items.find(item => item.name === newItem.name)) return addRandomItem(items)
 

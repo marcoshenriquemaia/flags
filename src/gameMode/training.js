@@ -26,8 +26,8 @@ export const trainingMode = (data, containerQuery) => {
     },
     'KeyD': () => {
       if (!hitItems.find(item => item.name === currentItem.name)) {
-        addRandomItem(items)
-        addRandomItem(items)
+        addRandomItem(items, data)
+        addRandomItem(items, data)
       }
       hitItems.push(currentItem)
       printMessage('hit')
@@ -48,7 +48,7 @@ export const trainingMode = (data, containerQuery) => {
     $counter.textContent = `${items.length}/${data.length}`
   }
 
-  addRandomItem(items)
+  addRandomItem(items, data)
   initGame()
 
   document.body.addEventListener('keypress', (e) => {
